@@ -20,7 +20,7 @@ public class DemoApplication {
 
 	@GetMapping("/test/{id}")
 	public String getTest(@PathVariable("id") String id) {
-		return String.format("Error!".concat(id));
+		return String.format("Test!".concat(id));
 	}
 
 	@PostMapping("/test/{id}")
