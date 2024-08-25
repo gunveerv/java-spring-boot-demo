@@ -9,6 +9,9 @@
 ## To Run
 
 ```./gradlew bootRun```
+<br>
+To help with Cleaning the build:
+```./gradleq clean```
 
 ## API
 

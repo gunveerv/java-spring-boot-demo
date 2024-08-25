@@ -22,6 +22,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter") // Optional if not using web
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+//	implementation ("io.github.cdimascio:dotenv-java:2.2.0")
 }
 
 tasks.withType<Test> {
